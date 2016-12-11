@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         print(text1.text!)
         print(text2.text!)
         
+        coolLabel.text = String(Double(text1.text!)! + Double(text2.text!)!)
+        
     }
     
     
